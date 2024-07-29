@@ -1,0 +1,31 @@
+{
+  "name": "notez",
+  "version": "1.0.0",
+  "description": "Note taking app",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abhi-BloodFeeD/notez.git"
+  },
+  "keywords": [
+    "notez"
+  ],
+  "author": "Abhinav B.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Abhi-BloodFeeD/notez/issues"
+  },
+  "homepage": "https://github.com/Abhi-BloodFeeD/notez#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}
